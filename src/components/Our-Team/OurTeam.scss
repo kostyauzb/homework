@@ -1,0 +1,119 @@
+.our-team {
+  width: 100%;
+  height: auto;
+  margin: 40px 0px;
+  padding: 40px 0px;
+  h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 16px;
+    span {
+      color: #ef7c00;
+    }
+  }
+  .our-team__cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 32px;
+    .our-team__card {
+      width: 100%;
+      max-width: 20%;
+      height: auto;
+      text-align: center;
+      img {
+        margin-bottom: 12px;
+        width: 100%;
+        border-radius: 50%;
+      }
+      h4 {
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        color: #2c2d2e;
+      }
+      p {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        text-align: center;
+        color: #919399;
+        margin-top: 4px;
+        margin-bottom: 12px;
+        width: 100%;
+      }
+      h5 {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        text-align: center;
+        margin-top: 4px;
+      }
+      h6 {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        width: 100%;
+        line-height: 13px;
+        text-align: center;
+        margin-top: 8px;
+      }
+    }
+  }
+  a {
+    display: block;
+    width: 155px;
+    height: 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid #ef7c00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ef7c00;
+    margin: auto;
+    transition: all 0.4s;
+    &:hover {
+      background-color: #ef7c00;
+      color: #ffffff;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .our-team {
+    .our-team__cards {
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-evenly;
+      .our-team__card {
+        max-width: 203px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .our-team {
+    h1 {
+      font-size: 22px;
+    }
+    .our-team__cards {
+      gap: 80px;
+    }
+  }
+}

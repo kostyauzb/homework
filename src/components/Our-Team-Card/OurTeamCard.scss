@@ -1,0 +1,45 @@
+.our-team__card {
+  width: 100%;
+  max-width: 203px;
+  height: auto;
+  border: 1px solid red;
+  text-align: center;
+  img {
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  h4 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #2c2d2e;
+  }
+  p {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+    color: #919399;
+    margin-top: 4px;
+    margin-bottom: 12px;
+  }
+  h5 {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+    margin-top: 4px;
+  }
+  h6 {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+    margin-top: 8px;
+  }
+}
